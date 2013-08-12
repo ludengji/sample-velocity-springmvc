@@ -1,0 +1,12 @@
+<form action="login" method="post">
+    <div>
+        <strong>userName:</strong><input type="text" size="20" name="userName">
+    </div>
+    <div>
+        <strong>password:</strong><input type="password" size="20" name="password">
+    </div>
+    <div>
+        <input type="submit" value="reigster">
+        <input type="reset" value="cancel">
+    </div>
+</form>

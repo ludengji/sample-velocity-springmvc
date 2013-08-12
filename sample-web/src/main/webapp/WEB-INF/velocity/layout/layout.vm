@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>$!{title}</title>
+    </head>
+    <body>
+        <div>
+            #parse("layout/header.vm")
+        </div>
+
+        <div>
+            $screen_content
+        </div>
+         <div>
+            #parse("layout/footer.vm")
+        </div>
+    </body>
+</html>
